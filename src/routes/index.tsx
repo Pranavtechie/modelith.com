@@ -8,14 +8,14 @@ export const Route = createFileRoute("/")({
 function App() {
 	return (
 		<div className="text-center">
-			<header className="min-h-screen flex flex-col items-center justify-center bg-[#282c34] text-white text-[calc(10px+2vmin)]">
+			<header className="min-h-[calc(100vh-3rem)] flex flex-col items-center justify-center bg-[#282c34] text-white text-[calc(10px+2vmin)]">
 				<img
 					src={banner}
 					className="h-[40vmin] pointer-events-none"
 					alt="logo"
 				/>
 
-				<p className="mt-10">
+				<div className="mt-10">
 					<p className="text-3xl font-semibold">
 						Evaluate your Students' Codes
 					</p>
@@ -24,7 +24,7 @@ function App() {
 						<p>Identify Sources</p>
 						<p>Grade Assignments</p>
 					</div>
-				</p>
+				</div>
 			</header>
 		</div>
 	);
