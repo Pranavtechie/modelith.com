@@ -16,7 +16,7 @@ export default function Header() {
 						href="https://pypi.org/project/modelith/"
 						target="_blank"
 					>
-						PyPi
+						PyPI
 					</a>
 				</div>
 			</nav>
